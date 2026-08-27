@@ -1,7 +1,6 @@
 package com.fmi.dp.transformations.replace.censor;
 
-import com.fmi.transformations.CapitalizeTransformation;
-import com.fmi.transformations.TextTransformation;
+import com.fmi.dp.transformations.TextTransformation;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -13,8 +12,8 @@ public class CensorTransformationTest {
     @Test
     void testCensorTransformation() {
 
-        assertEquals(textTransformation.transform("woW one"), "woW one");
-        assertEquals(textTransformation.transform(" wow two"), " *** two");
+        assertEquals("woW one", textTransformation.transform("woW one"));
+        assertEquals(" *** two", textTransformation.transform(" wow two"));
         assertEquals(word.length(), new CensorTransformation(word).transform(word).length());
     }
 }

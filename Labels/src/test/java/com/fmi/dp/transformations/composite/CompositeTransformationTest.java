@@ -1,6 +1,6 @@
 package com.fmi.dp.transformations.composite;
 
-import com.fmi.transformations.TextTransformation;
+import com.fmi.dp.transformations.TextTransformation;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

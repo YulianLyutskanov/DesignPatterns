@@ -1,7 +1,6 @@
 package com.fmi.dp.transformations.whitespace.trim;
 
-import com.fmi.transformations.CapitalizeTransformation;
-import com.fmi.transformations.TextTransformation;
+import com.fmi.dp.transformations.TextTransformation;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

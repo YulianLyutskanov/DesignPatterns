@@ -1,11 +1,11 @@
 package com.fmi.dp.decorator;
 
-import com.fmi.labels.Label;
-import com.fmi.transformations.CapitalizeTransformation;
-import com.fmi.transformations.DecorateTransformation;
-import com.fmi.transformations.TextTransformation;
-import com.fmi.transformations.composite.CompositeTransformation;
-import com.fmi.transformations.whitespace.trim.LeftTrimTransformation;
+import com.fmi.dp.labels.Label;
+import com.fmi.dp.transformations.CapitalizeTransformation;
+import com.fmi.dp.transformations.DecorateTransformation;
+import com.fmi.dp.transformations.TextTransformation;
+import com.fmi.dp.transformations.composite.CompositeTransformation;
+import com.fmi.dp.transformations.whitespace.trim.LeftTrimTransformation;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

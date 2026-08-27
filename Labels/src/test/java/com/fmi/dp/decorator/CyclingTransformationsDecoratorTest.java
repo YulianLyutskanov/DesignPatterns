@@ -1,9 +1,9 @@
 package com.fmi.dp.decorator;
 
-import com.fmi.labels.HelpLabel;
-import com.fmi.labels.Label;
-import com.fmi.labels.SimpleTextLabel;
-import com.fmi.transformations.TextTransformation;
+import com.fmi.dp.labels.HelpLabel;
+import com.fmi.dp.labels.Label;
+import com.fmi.dp.labels.SimpleTextLabel;
+import com.fmi.dp.transformations.TextTransformation;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
